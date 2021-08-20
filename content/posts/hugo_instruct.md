@@ -56,7 +56,7 @@ hugo -d path
 My config.toml
 
 ```toml
-baseURL = "http://example.org/"
+baseURL = "http://walkurehhh.github.io"
 languageCode = "zh-Hans"
 enableRobotsTXT = true
 title = "LYH's Blog"
@@ -64,15 +64,15 @@ theme = "dream"
 hasCJKLanguage = true
 publishdir = "../publish"
 
-
+#LavenderBlush
 [params]
-  background = "#fff"
+  background = "#FFF0F5"
   backgroundImage = "/img/1.jpg"
   linkColor = "seagreen"
 
-  # dark mode
+  # dark mode c48fa4
   defaultDark = true
-  backgroundDark = "black"
+  backgroundDark = "#c28795"
   backgroundImageDark = "/img/1.jpg"
   darkLinkColor = "darkseagreen"
   # darkNav = true
@@ -82,7 +82,7 @@ publishdir = "../publish"
 
   author = "Erwin"
   description = "Li Yuanhao's Blog"
-  avatar = "/img/yy.jpg"
+  avatar = "/img/ichigo_square.jpg"
   headerTitle = "Li Yuanhao's Blog"
   motto = "python yyds"
   # maxTags = 5
@@ -133,7 +133,7 @@ publishdir = "../publish"
   # collapseBySummary = true
 
   [params.advanced]
-    #customCSS = ["css/custom.css"]
+    customCSS = ["css/background.css"]
     # customJSBefore = []
     # customJS = []
 
