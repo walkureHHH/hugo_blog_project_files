@@ -8,13 +8,13 @@ publishdir = "../publish"
 
 #LavenderBlush
 [params]
-  background = "#FFF0F5"
+  background = "#f2cac9"
   backgroundImage = "/img/1.jpg"
   linkColor = "seagreen"
 
   # dark mode c48fa4
   defaultDark = true
-  backgroundDark = "#c28795"
+  backgroundDark = "#b36d61"
   backgroundImageDark = "/img/1.jpg"
   darkLinkColor = "darkseagreen"
   # darkNav = true
@@ -57,10 +57,13 @@ publishdir = "../publish"
   favicon = "/favicon.ico"
 
   highlightjs = true
-  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
-  highlightjsExtraLanguages = ["ocaml"]
-  highlightjsTheme = "gruvbox-light"
-  highlightjsThemeDark = "gruvbox-dark"
+  #highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsCDN = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"
+  # highlightjsExtraLanguages = ["ocaml"]
+  # highlightjsTheme = "gruvbox-light"
+  highlightjsTheme = "github"
+  #highlightjsThemeDark = "gruvbox-dark"
+  highlightjsThemeDark = "dracula"
 
   # search
   enableSearch = true
