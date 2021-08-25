@@ -57,12 +57,8 @@ publishdir = "../publish"
   favicon = "/favicon.ico"
 
   highlightjs = true
-  #highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
   highlightjsCDN = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"
-  # highlightjsExtraLanguages = ["ocaml"]
-  # highlightjsTheme = "gruvbox-light"
   highlightjsTheme = "github"
-  #highlightjsThemeDark = "gruvbox-dark"
   highlightjsThemeDark = "dracula"
 
   # search
@@ -85,3 +81,6 @@ publishdir = "../publish"
   [params.experimental]
     jsDate = true
     jsDateFormat = "yyyy-MM-dd"
+
+  [outputs]
+    home = ["HTML", "RSS", "JSON"]
